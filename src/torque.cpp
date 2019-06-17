@@ -13,7 +13,7 @@ using namespace kondo;
 #define TORQUE_MIN -32768
 #define TORQUE_MAX 32768
 
-#define SET_TORQUE 300  // mili Newton meter
+#define SET_TORQUE 3000  // mili Newton meter
 
 B3M* pb3m;
 int current;
