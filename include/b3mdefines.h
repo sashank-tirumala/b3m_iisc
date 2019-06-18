@@ -17,7 +17,16 @@ namespace kondo {
   static const uint8_t ADDRESS_ACTUAL_POSITION = 0x2C;
   static const uint8_t ADDRESS_TARGET_VELOCITY = 0x30;
   static const uint8_t ADDRESS_ACTUAL_VELOCITY = 0x32;
+  static const uint8_t ADDRESS_ACTUAL_PREV_VELOCITY = 0x34;
   static const uint8_t ADDRESS_TARGET_CURRENT = 0x3C;
+
+  static const uint8_t ADDRESS_TARGET_TIME = 0x36;
+  static const uint8_t ADDRESS_COMMAND_RUN_TIME = 0x38;
+  static const uint8_t ADDRESS_TIME_ELAPSED_FROM_STARTUP = 0x3A;
+  static const uint8_t ADDRESS_SYSTEM_CLOCK = 0x3E;
+  static const uint8_t ADDRESS_SAMPLING_TIME = 0x42;
+
+
 
   static const uint8_t ADDRESS_ENCODER_COUNT = 0x50;
   static const uint8_t ADDRESS_ENCODER_TOTAL_COUNT = 0x52;
