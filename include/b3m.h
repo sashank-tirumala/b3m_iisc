@@ -344,5 +344,5 @@ namespace kondo {
      */
     int32_t getEncoderTotalCount(const ID_t id) { return readLong<int16_t>(id, ADDRESS_ENCODER_TOTAL_COUNT); }
   };
-
+// CHECKED 
 };
