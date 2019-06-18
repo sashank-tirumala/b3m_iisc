@@ -36,11 +36,11 @@ namespace kondo {
   const uint32_t MAX_DATA_SIZE = 64;
 
   enum option_t {
-    OPTION_ERROR_STATUS = 0x00,
-    OPTION_SYSTEM_STATUS = 0x01,
-    OPTION_MOTOR_STATUS = 0x02,
-    OPTION_UART_STATUS = 0x03,
-    OPTION_COMMAND_STATUS = 0x04,
+    OPTION_ERROR_STATUS = 0x9D,
+    OPTION_SYSTEM_STATUS = 0x9E,
+    OPTION_MOTOR_STATUS = 0x9F,
+    OPTION_UART_STATUS = 0xA0,
+    OPTION_COMMAND_STATUS = 0xA1,
   };
   typedef uint8_t status_t;
 };
