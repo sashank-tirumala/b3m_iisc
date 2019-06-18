@@ -112,5 +112,7 @@ SC-1170-A: Ampacity of **Max 5.4A** required for each servo unit
 * [ppt](http://www.adrlab.org/archive/forcecontrol11.pdf)
 * [Interaction Control for Contact Robotics](https://www.youtube.com/watch?v=GjKy3EFs3g8)
 
-
+#Current authors:
+sashank-tirumala
+varunvp
 
